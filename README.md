@@ -48,12 +48,12 @@ https://github.com/Leysman/Educational-Landing-Page
 ## ✨ Features
 
 - Semantic HTML structure
-- Responsive and reusable layout components
+- Multi-section landing page
+- Reusable layout sections
 - CSS Flexbox layouts
 - CSS Grid layouts
 - BEM methodology
 - Contact form UI
-- Multi-section landing page
 
 > **Note:** This project is a static landing page without JavaScript functionality.
 
