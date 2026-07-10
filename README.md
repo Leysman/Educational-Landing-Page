@@ -64,10 +64,10 @@ https://github.com/Leysman/Educational-Landing-Page
 During this project I practiced:
 
 - Writing semantic HTML markup
-- Organizing styles using the BEM methodology
+- Structuring web pages using semantic elements
+- Organizing styles with the BEM methodology
 - Building layouts with Flexbox and CSS Grid
-- Structuring project files
-- Creating reusable UI components
+- Organizing project files and styles
 - Writing clean and maintainable CSS
 
 ---
