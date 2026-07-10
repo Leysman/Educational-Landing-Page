@@ -6,13 +6,13 @@ A static educational landing page built with **HTML5** and **CSS3**. This projec
 
 ## 🚀 Live Demo
 
-🔗 [https://leysman.github.io/Project-basic-HTML-CSS/](https://leysman.github.io/Educational-Landing-Page/)
+https://leysman.github.io/Educational-Landing-Page/
 
 ---
 
 ## 💻 Repository
 
-🔗 https://github.com/Leysman/Project-basic-HTML-CSS
+https://github.com/Leysman/Educational-Landing-Page
 
 ---
 
