@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/base.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>e-Tutoria</title>
+</head>
+<body>
+                                <!--            Header               -->
+        <header>
+            <div class="wrapper-header container">
+                
+                    
+                    <a class="header__title" href="#">e-Tutoria</a>
+                    
+
+
+                    <nav class="header__nav">
+                        <ul class="header-nav__list">
+                            <li class="header-nav__item-1">
+                                <button class="header-btn__explore">Explore</button>
+
+
+                                <div class="header__dropdown">
+                                    <ul>
+                                        <li><a class="header__link-item" href="#">Courses</a></li>
+                                        <li><a class="header__link-item" href="#">Corporate training</a></li>
+                                    </ul>
+
+                                    <p>Goals</p>
+                                    <ul>
+                                        <li><a class="header__link-item" href="#">Take a free course</a></li>
+                                        <li><a class="header__link-item" href="#">Get a diploma</a></li>
+                                        <li><a class="header__link-item" href="#">Get a certificate</a></li>
+                                        <li><a class="header__link-item" href="#">Get a new profession</a></li>
+                                    </ul>
+
+                                    <p>Themes</p>
+                                    <ul>
+                                        <li><a class="header__link-item" href="#">Data science</a></li>
+                                        <li><a class="header__link-item" href="#">Business</a></li>
+                                        <li><a class="header__link-item" href="#">Computer science</a></li>
+                                        <li><a class="header__link-item" href="#">Information Technology</a></li>
+                                    </ul>
+                                </div>
+                                
+                            </li>
+
+                            <li class="header-nav__item-2">
+                                <form class="header__form" role="search" action="#" method="get">
+                        
+                                    <label class="visually-hidden" for="search">Search courses</label>
+                                    <input class="header-form__search" id="search" type="search" name="q" placeholder="What do you want to learn?">
+            
+                                    <button class="header-form__btn" type="submit">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3555 10.4504L16.0067 15.1016L15.1016 16.0067L10.4504 11.3555C9.34711 12.2583 7.93681 12.8 6.4 12.8C2.86538 12.8 0 9.93462 0 6.4C0 2.86538 2.86538 0 6.4 0C9.93462 0 12.8 2.86538 12.8 6.4C12.8 7.93681 12.2583 9.34711 11.3555 10.4504ZM6.4 11.52C9.2277 11.52 11.52 9.2277 11.52 6.4C11.52 3.5723 9.2277 1.28 6.4 1.28C3.5723 1.28 1.28 3.5723 1.28 6.4C1.28 9.2277 3.5723 11.52 6.4 11.52Z" fill="#EEEEEE"/>
+                                        </svg>
+                                    </button>
+            
+                                </form>
+                            </li>
+
+                            <li class="header-nav__item-3">
+                                <a class="header__link-item"  href="#">Courses</a>
+                            </li>
+
+                            <li class="header-nav__item-4">
+                                <a class="header__link-item"  href="#">Corporate training</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="header__actions">
+                        <a class="header__login" href="#">Log in</a>
+                        <a class="header__signup" href="#">Sign up</a>
+                    </div>                   
+                    
+            </div>
+
+        </header>
+        
+        
+                                <!--            Main                 -->
+        <main>
+                                <!--  Hero section -->
+            <section class="hero section container">
+
+        
+                <div class="hero__content">
+                    <h1 class="hero__title">Learn comfortably</h1>
+                    <p class="hero__text">Unlimited access to 700+ courses, hands-on projects, and certifications in job-critical skills in one subscription</p>
+    
+                    <div class="hero__actions">
+                            <a class="hero__link link--primary" href="#">Start learning</a>
+                            <a class="hero__link hero__link--secondary" href="#">Learn more</a>
+                    </div>
+                </div>
+    
+    
+                <img class="hero__image" src="./img/hero/Mask group.png" alt="Student learning online">
+                
+
+            </section>
+
+                                <!--    Section  Choose the best program for you   -->
+
+            <section class="programs section container">
+                <div class="section-header">
+                    <p class="section-header__label">Academic training</p>
+                    <h2 class="section-header__title">Choose the best program for you</h2>
+                    <p class="section-header__text">An incredible opportunity to gain academic knowledge and skills online</p>
+                </div>
+
+                <div class="cards programs__cards">
+                    <a href="#" class="card">
+                        <img src="./img/program/dan-it.png" alt="DAN.IT Education campus building" class="card__img">
+
+                        <div class="card__content">
+                            <p class="card__meta card__meta--danit">DAN.IT Education</p>
+                            <h3 class="card__title">High-quality Israeli IT education</h3>
+                            <span class="card__link programs__link">Get a diploma</span>
+                        </div>
+                    </a>
+
+
+                    <a href="#" class="card">
+                        <img src="./img/program/EuropeanUniversity.png" alt="European University building" class="card__img">
+
+                        <div class="card__content">
+                            <p class="card__meta card__meta--eu">European University</p>
+                            <h3 class="card__title">121 "Software engineering"</h3>
+                            <span class="card__link programs__link">Get a diploma</span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card">
+                        <img src="./img/program/Tech-Online.png" alt="Projector — Creative & Tech Online Institute building" class="card__img">
+                        
+                        <div class="card__content">
+                            <p class="card__meta card__meta--projector">Projector — Creative & Tech Online Institute</p>
+                            <h3 class="card__title">Education that is relevant today and valuable tomorrow</h3>
+                            <span class="card__link programs__link">Get a diploma</span>
+                        </div> 
+                    </a>
+                    
+                </div>
+            </section>
+
+                                <!--   Section Popular courses on our platform      -->
+            <section class="courses section container">
+                <div class="section-header">
+                    <p class="section-header__label">Courses and specializations</p>
+                    <h2 class="section-header__title">Popular courses on our platform</h2>
+                    <p class="section-header__text">Choose from more than 700 courses on topics such as business analytics, graphic design, Python, and more.</p>
+                </div>
+
+                <div class="cards courses__cards ">
+                    <a href="#" class="card">
+                        <img class="card__img" src="./img/courses/img-ui-ux.png" alt="Person creating a UI/UX design">
+                    
+                        <div class="card__content">
+                            <p class="card__meta card__meta--danit">DAN.IT Education</p>
+                            <h3 class="card__title">UI/UX Design</h3>
+                            <span class="card__link courses__link">Course</span>
+                        </div>
+                    </a>
+
+
+                    <a href="#" class="card">
+                        <img class="card__img" src="./img/courses/fullstack.png" alt="Software developer working at a computer">
+
+                        <div class="card__content">
+                            <p class="card__meta card__meta--danit">DAN.IT Education</p>
+                            <h3 class="card__title">Full Stack Developer (JavaScript + Java)</h3>
+                            <span class="card__link courses__link">Course</span>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card">
+                        <img class="card__img" src="./img/courses/img-QA.png" alt="Person reviewing a document">
+                        
+                        <div class="card__content">
+                            <p class="card__meta card__meta--danit">DAN.IT Education</p>
+                            <h3 class="card__title">Quality Assurance (QA)</h3>
+                            <span class="card__link courses__link">Course</span>
+                        </div> 
+                    </a>
+
+                    <a href="#" class="card">
+                        <img class="card__img" src="./img/courses/img-SMM.png" alt="Content creator recording a video">
+                        
+                        <div class="card__content">
+                            <p class="card__meta card__meta--danit">DAN.IT Education</p>
+                            <h3 class="card__title">SMM & Content marketing</h3>
+                            <span class="card__link courses__link">Course</span>
+                        </div> 
+                    </a>
+                    
+                </div>
+
+                <button class="btn-more">More courses</button>
+
+            </section>
+
+
+                                <!--    Section Featured topics by category -->
+            <section class="topics section container">
+                <h2 class="topics__title">Featured topics by category</h2>
+
+                <div class="topics__categories">
+
+                    <div class="topics__category">
+                        <h3 class="topics__category-title">Design</h3>
+                            <ul class="topics__list">
+                                <li class="topics__item">
+                                    <a class="topics__link" href="#">Figma</a>
+                                    <span class="topics__students">10,909,736 students</span>
+                                </li>
+                                <li class="topics__item">
+                                    <a class="topics__link" href="#">Graphic Design</a>
+                                    <span class="topics__students">3,381,052 students</span>
+                                </li>
+                                <li class="topics__item">
+                                    <a class="topics__link" href="#">Drawing</a>
+                                    <span class="topics__students">2,410,849 students</span>
+                                </li>
+                            </ul>
+                    </div>
+
+
+                    <div class="topics__category">
+                        <h3 class="topics__category-title">IT and Software</h3>
+                            <ul class="topics__list">
+                                <li class="topics__item">
+                                    <a class="topics__link" href="#">Ethical Hacking</a>
+                                    <span class="topics__students">10,931,066 students</span>
+                                </li>
+                                <li class="topics__item">
+                                    <a class="topics__link" href="#">Amazon AWS</a>
+                                    <span class="topics__students">6,123,456 students</span>
+                                </li>
+                                <li class="topics__item">
+                                    <a class="topics__link" href="#">Cyber Security</a>
+                                    <span class="topics__students">3,998,037 students</span>
+                                </li>
+                            </ul>
+                    </div>
+
+
+                    <div class="topics__category">
+                        <h3 class="topics__category-title">Development</h3>
+                            <ul class="topics__list">
+                                <li class="topics__item">
+                                    <a class="topics__link" href="#">Web Development</a>
+                                    <span class="topics__students">11,415,615 students</span>
+                                </li>
+                                <li class="topics__item">
+                                    <a class="topics__link" href="#">Python</a>
+                                    <span class="topics__students">36,354,994 students</span>
+                                </li>
+                                <li class="topics__item">
+                                    <a class="topics__link" href="#">Machine Learning</a>
+                                    <span class="topics__students">7,070,015 students</span>
+                                </li>
+                            </ul>
+                    </div>
+
+
+                    <div class="topics__category">
+                        <h3 class="topics__category-title">Business</h3>
+                            <ul class="topics__list">
+                                <li class="topics__item">
+                                    <a class="topics__link" href="#">SQL</a>
+                                    <span class="topics__students">5,977,561 students</span>
+                                </li>
+                                <li class="topics__item">
+                                    <a class="topics__link" href="#">Financial Analysis</a>
+                                    <span class="topics__students">31,195,282 students</span>
+                                </li>
+                                <li class="topics__item">
+                                    <a class="topics__link" href="#">PMP</a>
+                                    <span class="topics__students">1,733,398 students</span>
+                                </li>
+                            </ul>
+                    </div>
+
+                </div>
+
+                <button class="btn-more">More courses</button>
+            </section>        
+            
+                                <!--    Section cooperate    -->
+            <section class="baground-section section">
+
+                <div class="wrapper-copperate__content container">
+                    <h2 class="cooperate__title">We cooperate with more than 50 leading universities and companies</h2>
+
+                    <div class="cooperate__companies">
+                        <ul class="cooperate__list">
+                            <li class="cooperate__item">
+                                <img src="./img/logos/illinois.svg" alt="University of Illinois logo">
+                            </li>
+                            <li class="cooperate__item">
+                                <img src="./img/logos/Google.svg" alt="Google logo">
+                            </li>
+                            <li class="cooperate__item">
+                                <img src="./img/logos/Duke.svg" alt="Duke University logo">
+                            </li>
+                            <li class="cooperate__item">
+                                <img src="./img/logos/MichiganUniversitu.svg" alt="University of Michigan logo">
+                            </li>
+                            <li class="cooperate__item">
+                                <img src="./img/logos/IBM.svg" alt="IBM logo">
+                            </li>
+                            <li class="cooperate__item">
+                                <img src="./img/logos/Penn.svg" alt="University of Pennsylvania logo">
+                            </li>
+                            <li class="cooperate__item">
+                                <img src="./img/logos/CollegeLondon.svg" alt="Imperial College London logo">
+                            </li>
+                            <li class="cooperate__item">
+                                <img src="./img/logos/Stanford.svg" alt="Stanford University logo">
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+
+                            <!-- Section solution for your business -->
+            <section class="business-solution container section">
+                
+                <div class="business-solution__content">
+                    <h2 class="business-solution__title">The ideal solution for your business</h2>
+                    <p class="business-solution__text">We offer world-class training and development programs popular with leading organizations around the world. All this is on Coursera for business.</p>
+                    <a href="#" class="business-solution__link link--primary">Contact Sales</a>
+                </div>
+
+                <ul class="business-solution__companies">
+
+                    <li class="business-solution__company">
+                        <img src="./img/logos/Loreal.svg" alt="L'Oréal logo">
+                    </li>
+
+                    <li class="business-solution__company">
+                        <img src="./img/logos/P&G.svg" alt="Procter & Gamble logo">
+                    </li>
+
+                    <li class="business-solution__company">
+                        <img src="./img/logos/Reliance.svg" alt="Reliance Industries logo">
+                    </li>
+
+                    <li class="business-solution__company">
+                        <img src="./img/logos/Danone.svg" alt="Danone logo">
+                    </li>
+
+                    <li class="business-solution__company">
+                        <img src="./img/logos/Tutu.svg" alt="Tata logo">
+                    </li>
+
+                    <li class="business-solution__company">
+                        <img src="./img/logos/Emirates-NBD.svg" alt="Emirates NBD logo">
+                    </li>
+
+                    <li class="business-solution__company">
+                        <img src="./img/logos/Capgemini.svg" alt="Capgemini logo">
+                    </li>
+
+                    <li class="business-solution__company">
+                        <img src="./img/logos/Indian.svg" alt="General Electric logo">
+                    </li>
+
+                    <li class="business-solution__company">
+                        <img src="./img/logos/Petrobras.svg" alt="Petrobras logo">
+                    </li>
+
+                </ul>
+      
+            </section>
+
+
+                            <!-- Section Choose a plan      -->
+            <section class="baground-section section">
+                    
+                <div class="plans container">
+                    <h2 class="plans__title">Choose a plan that matches your career goals</h2>
+
+                    <div class="plans__cards">
+
+                        <div class="plans__card">
+                            <div class="plans__card-content">
+
+                                <h3 class="plans__card-title">One training program</h3>
+                                <p class="plans__card-text">Learn one topic or master a skill and get certified</p>
+                                <p class="plans__card-price">$ 49<span> / mo</span></p>
+                                <a class="plans__card-link link--primary" href="#">Get Started</a>
+                                
+                            </div>
+                            <div class="plans__card-features">
+                                <p class="plans__card-features-text">Access all courses in the curriculum</p>
+                                <p class="plans__card-features-text">Receive a certificate upon completion</p>
+
+                            </div>
+                        </div>
+
+                        <div class="plans__card--featured">
+                            
+                                <div class="plans__card-content card-content--featured">
+    
+                                    <h3 class="plans__card-title title--featured">e-Tutoria Plus with monthly payment</h3>
+                                    <p class="plans__card-text text--featured">Take several courses and get a document that confirms your qualifications in a short time</p>
+                                    <p class="plans__card-price price--featured">$ 79<span> / mo</span></p>
+                                    <a class="plans__card-link link--border" href="#">Get Started</a>
+                                    
+                                </div>
+                                <div class="plans__card-features card-features--featured">
+                                    <p class="plans__card-features-text features-text--featured">Access 700+ courses and specializations from over 50 leading companies and universities</p>
+                                    <p class="plans__card-features-text features-text--featured">Get as many certificates as you want</p>
+                                    <p class="plans__card-features-text features-text--featured">Choose from over 15 professional certification programs from industry leaders like Google, Facebook and more</p>
+    
+                                </div>
+                        </div>
+
+                        <div class="plans__card">
+
+                            <div class="plans__card-content">
+    
+                                <h3 class="plans__card-title">e-Tutoria Plus with annual payment</h3>
+                                <p class="plans__card-text">Convenient schedule, savings and long-term learning goals</p>
+                                <p class="plans__card-price">$ 399<span> / Y</span></p>
+                                <a class="plans__card-link link--primary" href="#">Get Started</a>
+                                
+                            </div>
+                            <div class="plans__card-features">
+                                <p class="plans__card-features-text">Everything included in the monthly billing plan</p>
+                                <p class="plans__card-features-text">Save when paying in advance for a year</p>
+                                <p class="plans__card-features-text">Choose from over 15 professional certification programs from industry leaders like Google, Facebook and more</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            
+            </section>
+
+
+                            <!--    Section Students        -->
+            
+            <section class="container section">
+
+                <div class="students">
+
+                    <h2 class="students__title">Photos of our students</h2>
+
+                    <div class="students__photos">
+
+                        <img src="./img/students/students-1.png" alt="Female graduate smiling at the camera">
+                        <img src="./img/students/students-9.png" alt="Female graduate in a graduation cap">
+                        <img src="./img/students/students-2.png" alt="Male graduate smiling outdoors">
+                        <img src="./img/students/students-3.png" alt="Portrait of a female graduate">
+                        <img src="./img/students/students-4.png" alt="Graduate posing outdoors">
+                        <img src="./img/students/students-5.png" alt="Female graduate in a graduation cap">
+                        <img src="./img/students/students-6.png" alt="Male graduate holding a diploma">
+                        <img src="./img/students/students-7.png" alt="Male graduate holding a diploma">
+                        <img src="./img/students/students-8.png" alt="Female graduate holding flowers">
+                        
+                    </div>
+                </div>
+
+
+            </section>
+
+
+                            <!-- Section contact us -->
+
+            <section class="contact">
+
+                <form class="contact__form" action="#">
+
+                    <h2 class="contact__title">Contact Us</h2>
+
+                    <p class="contact__subtitle">Have questions? The quickest way to get in touch with us is using the contact information below.</p>
+
+                    <div class="contact-form__field">
+                        <label for="name" class="contact-form__label">Name</label>
+                        <input
+                            id="name"
+                            name="name"
+                            type="text"
+                            class="contact-form__input"
+                            placeholder="Enter your Name"
+                            required
+                        >
+                    </div>
+
+                    <div class="contact-form__field">
+                        <label for="email" class="contact-form__label">Email Address</label>
+                        <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            class="contact-form__input"
+                            placeholder="Enter your Email"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="contact-form__field">
+                        <label for="message" class="contact-form__label">Your message</label>
+                        <textarea name="message" maxlength="500" id="message" placeholder="Enter your message" class="contact-form__textarea"></textarea>
+                    </div>
+                    
+
+                    <button class="link--primary btn--submit" type="submit">Send</button>
+
+
+                </form>
+
+            </section>
+        </main>
+
+                                <!--             Footer             -->
+        <footer class="container footer">
+            <div class="footer__content">
+                <h2 class="footer__title">e-Tutoria</h2>
+                <p class="footer__text">e-Tutoria is the global online learning platform that offers anyone, anywhere access to online courses</p>
+            </div>
+
+            <div class="footer__actions">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_10)">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16 0C24.8306 0 32 7.16938 32 16C32 24.8306 24.8306 32 16 32C7.16938 32 0 24.8306 0 16C0 7.16938 7.16938 0 16 0ZM16 6C13.2842 6 12.9436 6.0115 11.877 6.06019C10.8126 6.10875 10.0857 6.27781 9.44956 6.525C8.792 6.78056 8.23431 7.1225 7.67837 7.67844C7.12244 8.23438 6.7805 8.79206 6.52494 9.44963C6.27775 10.0857 6.10875 10.8126 6.06012 11.877C6.0115 12.9436 6 13.2842 6 16C6 18.7158 6.0115 19.0564 6.06012 20.123C6.10875 21.1874 6.27775 21.9143 6.52494 22.5504C6.7805 23.2079 7.12244 23.7656 7.67837 24.3216C8.23431 24.8776 8.792 25.2195 9.44956 25.4751C10.0857 25.7222 10.8126 25.8912 11.877 25.9398C12.9436 25.9885 13.2842 26 16 26C18.7158 26 19.0564 25.9885 20.123 25.9398C21.1874 25.8912 21.9143 25.7222 22.5504 25.4751C23.2079 25.2195 23.7656 24.8776 24.3216 24.3216C24.8776 23.7656 25.2195 23.2079 25.4751 22.5504C25.7222 21.9143 25.8912 21.1874 25.9398 20.123C25.9885 19.0564 26 18.7158 26 16C26 13.2842 25.9885 12.9436 25.9398 11.877C25.8912 10.8126 25.7222 10.0857 25.4751 9.44963C25.2195 8.79206 24.8776 8.23438 24.3216 7.67844C23.7656 7.1225 23.2079 6.78056 22.5504 6.525C21.9143 6.27781 21.1874 6.10875 20.123 6.06019C19.0564 6.0115 18.7158 6 16 6ZM16 7.80181C18.6701 7.80181 18.9864 7.812 20.0409 7.86013C21.0159 7.90462 21.5453 8.0675 21.8977 8.20444C22.3645 8.38581 22.6976 8.60256 23.0475 8.9525C23.3975 9.30238 23.6142 9.63556 23.7956 10.1023C23.9325 10.4547 24.0954 10.9841 24.1399 11.9591C24.188 13.0136 24.1982 13.3299 24.1982 16C24.1982 18.6701 24.188 18.9864 24.1399 20.0409C24.0954 21.0159 23.9325 21.5453 23.7956 21.8977C23.6142 22.3645 23.3975 22.6976 23.0475 23.0475C22.6976 23.3975 22.3645 23.6142 21.8977 23.7956C21.5453 23.9325 21.0159 24.0954 20.0409 24.1399C18.9866 24.188 18.6703 24.1982 16 24.1982C13.3297 24.1982 13.0135 24.188 11.9591 24.1399C10.9841 24.0954 10.4547 23.9325 10.1023 23.7956C9.6355 23.6142 9.30237 23.3975 8.95244 23.0475C8.6025 22.6976 8.38581 22.3645 8.20444 21.8977C8.0675 21.5453 7.90456 21.0159 7.86006 20.0409C7.81194 18.9864 7.80181 18.6701 7.80181 16C7.80181 13.3299 7.81194 13.0136 7.86006 11.9591C7.90456 10.9841 8.0675 10.4547 8.20444 10.1023C8.38581 9.63556 8.6025 9.30238 8.95244 8.9525C9.30237 8.60256 9.6355 8.38581 10.1023 8.20444C10.4547 8.0675 10.9841 7.90462 11.9591 7.86013C13.0136 7.812 13.3299 7.80181 16 7.80181ZM16 10.8649C13.1639 10.8649 10.8649 13.1639 10.8649 16C10.8649 18.8361 13.1639 21.1351 16 21.1351C18.8361 21.1351 21.1351 18.8361 21.1351 16C21.1351 13.1639 18.8361 10.8649 16 10.8649ZM16 19.3333C14.1591 19.3333 12.6667 17.8409 12.6667 16C12.6667 14.1591 14.1591 12.6667 16 12.6667C17.8409 12.6667 19.3333 14.1591 19.3333 16C19.3333 17.8409 17.8409 19.3333 16 19.3333ZM22.5381 10.662C22.5381 11.3247 22.0007 11.8619 21.338 11.8619C20.6753 11.8619 20.1381 11.3247 20.1381 10.662C20.1381 9.99925 20.6753 9.462 21.338 9.462C22.0007 9.462 22.5381 9.99925 22.5381 10.662Z" fill="black"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_1_10">
+                                <rect width="32" height="32" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.9389 31.9999L15.9532 31.9999H15.9482L15.9389 31.9999ZM16.0518 31.9999H16.0468L16.0611 31.9999L16.0518 31.9999ZM15.89 31.9996L15.9054 31.9997H15.8966L15.89 31.9996ZM16.1034 31.9997H16.0946L16.11 31.9996L16.1034 31.9997ZM15.8429 31.9993L15.8532 31.9993L15.8449 31.9993H15.8429ZM16.1551 31.9993L16.1468 31.9993L16.1571 31.9993H16.1551ZM16.2067 31.9987L16.2031 31.9988L16.217 31.9986L16.2067 31.9987ZM15.783 31.9986L15.7969 31.9988L15.7933 31.9987L15.783 31.9986ZM16.2582 31.9979L16.2498 31.9981L16.267 31.9978L16.2582 31.9979ZM15.733 31.9978L15.7502 31.9981L15.7417 31.9979L15.733 31.9978ZM16.3097 31.9971L16.2984 31.9972L16.3143 31.9969L16.3097 31.9971ZM15.6858 31.9969L15.7016 31.9972L15.6903 31.9971L15.6858 31.9969ZM15.6272 31.9958L15.6412 31.9961L15.6388 31.996L15.6272 31.9958ZM16.3612 31.996L16.3587 31.9961L16.3728 31.9958L16.3612 31.996ZM15.5758 31.9944L15.5951 31.9949L15.5873 31.9947L15.5758 31.9944ZM16.4127 31.9947L16.4049 31.9949L16.4242 31.9944L16.4127 31.9947ZM16.4641 31.9934L16.4516 31.9937L16.4713 31.9932L16.4641 31.9934ZM15.5287 31.9932L15.5484 31.9937L15.5359 31.9934L15.5287 31.9932ZM15.4837 31.9918L15.4978 31.9923L15.4845 31.9918L15.4724 31.9914L15.4837 31.9918ZM16.5155 31.9918L16.5023 31.9923L16.5163 31.9918L16.5276 31.9914L16.5155 31.9918ZM16.5668 31.9901L16.5598 31.9904L16.5814 31.9896L16.5668 31.9901ZM15.4186 31.9896L15.4402 31.9904L15.4332 31.9901L15.4186 31.9896ZM15.3718 31.9879L15.3944 31.9887L15.3819 31.9883L15.3718 31.9879ZM16.6181 31.9883L16.6056 31.9887L16.6282 31.9879L16.6181 31.9883ZM15.3259 31.986L15.348 31.9869L15.3307 31.9862L15.3259 31.986ZM16.6693 31.9862L16.652 31.9869L16.6741 31.986L16.6693 31.9862ZM15.2615 31.9832L15.2852 31.9842L15.2794 31.9841L15.2615 31.9832ZM16.7206 31.9841L16.7148 31.9842L16.7385 31.9832L16.7206 31.9841ZM15.2153 31.9811L15.2399 31.9822L15.2283 31.9817L15.2153 31.9811ZM16.7717 31.9817L16.7601 31.9822L16.7847 31.9811L16.7717 31.9817ZM15.1698 31.9788L15.1946 31.98L15.1772 31.9792L15.1698 31.9788ZM16.8228 31.9792L16.8054 31.98L16.8302 31.9788L16.8228 31.9792ZM16.8739 31.9765L16.8513 31.9777L16.8714 31.9766L16.895 31.9753L16.8739 31.9765ZM15.1286 31.9766L15.1487 31.9777L15.1261 31.9765L15.105 31.9753L15.1286 31.9766ZM16.9249 31.9736L16.9149 31.9742L16.9403 31.9727L16.9249 31.9736ZM15.0597 31.9727L15.0851 31.9742L15.0751 31.9736L15.0597 31.9727ZM15.0146 31.9701L15.0399 31.9716L15.0241 31.9707L15.0146 31.9701ZM16.9759 31.9707L16.9601 31.9716L16.9854 31.9701L16.9759 31.9707ZM14.9715 31.9674L14.9943 31.9688L14.9731 31.9675L14.9517 31.9661L14.9715 31.9674ZM17.0269 31.9675L17.0057 31.9688L17.0285 31.9674L17.0483 31.9661L17.0269 31.9675ZM17.0778 31.9642L17.0702 31.9647L17.0944 31.9631L17.0778 31.9642ZM14.9056 31.9631L14.9298 31.9647L14.9222 31.9642L14.9056 31.9631ZM14.8606 31.9599L14.8843 31.9616L14.8713 31.9608L14.8606 31.9599ZM17.1287 31.9608L17.1157 31.9616L17.1394 31.9599L17.1287 31.9608ZM14.8156 31.9568L14.8374 31.9583L14.8205 31.9571L14.8156 31.9568ZM17.1795 31.9571L17.1626 31.9583L17.1844 31.9568L17.1795 31.9571ZM14.7552 31.9522L14.7743 31.9536L14.7697 31.9533L14.7552 31.9522ZM17.2303 31.9533L17.2257 31.9536L17.2448 31.9522L17.2303 31.9533ZM17.281 31.9494L17.2719 31.9501L17.2913 31.9485L17.281 31.9494ZM14.7087 31.9485L14.7281 31.9501L14.719 31.9494L14.7087 31.9485ZM14.6634 31.9448L14.6799 31.9462L14.6683 31.9452L14.6634 31.9448ZM17.3318 31.9452L17.3201 31.9462L17.3366 31.9448L17.3318 31.9452ZM14.6135 31.9406L14.6184 31.9411L14.6176 31.941L14.6135 31.9406ZM17.3824 31.941L17.3816 31.9411L17.3865 31.9406L17.3824 31.941ZM17.433 31.9366L17.4285 31.9369L17.4398 31.9359L17.433 31.9366ZM14.5602 31.9359L14.5715 31.9369L14.567 31.9366L14.5602 31.9359ZM14.5133 31.9317L14.5218 31.9325L14.5165 31.932L14.5133 31.9317ZM17.4835 31.932L17.4783 31.9325L17.4867 31.9317L17.4835 31.932ZM13.5 31.8054C5.85506 30.6038 0 23.9802 0 16C0 7.16938 7.16938 0 16 0C24.8306 0 32 7.16938 32 16C32 23.9802 26.1449 30.6038 18.5 31.8054V20.625H22.2281L22.9375 16H18.5V12.9987C18.5 11.7334 19.1199 10.5 21.1074 10.5H23.125V6.5625C23.125 6.5625 21.294 6.25 19.5434 6.25C15.8887 6.25 13.5 8.465 13.5 12.475V16H9.4375V20.625H13.5V31.8054Z" fill="black"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16 0C24.8306 0 32 7.16938 32 16C32 24.8306 24.8306 32 16 32C7.16938 32 0 24.8306 0 16C0 7.16938 7.16938 0 16 0ZM10.9977 24.9919V12.4969H6.84369V24.9919H10.9977ZM25.9739 24.9919V17.8266C25.9739 13.9885 23.9248 12.2031 21.1921 12.2031C18.9887 12.2031 18.0017 13.4149 17.4491 14.266V12.4969H13.2961C13.3512 13.6692 13.2961 24.9919 13.2961 24.9919H17.449V18.0138C17.449 17.6403 17.4759 17.2669 17.5859 17C17.8856 16.2541 18.5695 15.4813 19.7169 15.4813C21.219 15.4813 21.8208 16.6276 21.8208 18.3066V24.9919H25.9739ZM8.94875 6.47188C7.5275 6.47188 6.59894 7.40625 6.59894 8.63094C6.59894 9.82981 7.49925 10.7899 8.89375 10.7899H8.92056C10.369 10.7899 11.2706 9.82981 11.2706 8.63094C11.2437 7.40625 10.3691 6.47188 8.94875 6.47188Z" fill="black"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <p class="footer__copyright">&copy; 2023 e-Tutoria Inc. All rights reserved.</p>
+            </div>
+        </footer>
+                               
+</body>
+</html>
